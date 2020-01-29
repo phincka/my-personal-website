@@ -1,0 +1,23 @@
+.main_section{
+    @include center;
+    background-color: #00a6fb; 
+    clip-path: polygon(0 0, 100% 1%, 100% 80%, 50% 100%, 0 80%);
+    padding: 110px 0 170px 0;
+        &--title, &--subtitle{
+            @include fontStyle(#fff, 3.5rem, 700);
+            text-shadow: .4px .4px #7eccf6;
+        }
+        &--subtitle{
+            font-size: 1.7rem;
+            text-shadow: .4px .4px #7eccf6;
+            margin: 20px 0 10px 0;
+        }
+        &__contact_list{
+            list-style: none;
+                &--element{
+                    @include fontStyle(#fff, 1.3rem, 400, center);
+                    text-shadow: .4px .4px #7eccf6;
+                    margin: 2px 0;
+                }
+        }
+}

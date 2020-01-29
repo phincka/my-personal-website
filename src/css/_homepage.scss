@@ -21,3 +21,15 @@
                 }
         }
 }
+
+@media screen and (max-width: $minDesktop) {
+    .main_section{
+        clip-path: polygon(0 0, 100% 1%, 100% 85%, 50% 100%, 0 85%);
+    }
+}
+@media screen and (max-width: $mobile) {
+    .main_section{
+        clip-path: polygon(0 0, 100% 1%, 100% 93%, 50% 100%, 0 93%);
+    }
+}
+

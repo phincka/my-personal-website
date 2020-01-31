@@ -1,7 +1,7 @@
 .main_section{
     @include center;
     background-color: #00a6fb; 
-    clip-path: polygon(0 0, 100% 1%, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
     padding: 110px 0 170px 0;
         &--title, &--subtitle{
             @include fontStyle(#fff, 3.5rem, 700,center);
@@ -24,13 +24,13 @@
 
 @media screen and (max-width: $minDesktop) {
     .main_section{
-        clip-path: polygon(0 0, 100% 1%, 100% 85%, 50% 100%, 0 85%);
+        clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 100%, 0 85%);
     }
 }
 @media screen and (max-width: $mobile) {
     .main_section{
         padding: 40px 5px 70px 5px;
-        clip-path: polygon(0 0, 100% 1%, 100% 93%, 50% 100%, 0 93%);
+        clip-path: polygon(0 0, 100% 0%, 100% 93%, 50% 100%, 0 93%);
             &--title, &--subtitle{
                 font-size: 2.7rem;
             }

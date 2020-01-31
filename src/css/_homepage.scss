@@ -4,7 +4,7 @@
     clip-path: polygon(0 0, 100% 1%, 100% 80%, 50% 100%, 0 80%);
     padding: 110px 0 170px 0;
         &--title, &--subtitle{
-            @include fontStyle(#fff, 3.5rem, 700);
+            @include fontStyle(#fff, 3.5rem, 700,center);
             text-shadow: .4px .4px #7eccf6;
         }
         &--subtitle{
@@ -29,6 +29,7 @@
 }
 @media screen and (max-width: $mobile) {
     .main_section{
+        padding: 40px 5px 70px 5px;
         clip-path: polygon(0 0, 100% 1%, 100% 93%, 50% 100%, 0 93%);
     }
 }

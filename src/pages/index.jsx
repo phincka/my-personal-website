@@ -21,9 +21,11 @@ const IndexPage = () => {
         <Layout>
             <SEO title="Home" />
                 <section className="main_section" ref={el => { main_section = el }}>
-                    <h1 className="main_section--title"> Strona w budowie </h1>
-                    <h2 className="main_section--subtitle">Zapaszam do kontaktu</h2>
-                    <ContactMetods />
+                    <div className="grid">
+                        <h1 className="main_section--title"> Strona w budowie </h1>
+                        <h2 className="main_section--subtitle">Zapaszam do kontaktu</h2>
+                        <ContactMetods />
+                    </div>
                 </section>
         </Layout>
     )

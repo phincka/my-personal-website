@@ -16,12 +16,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="header-grid">
+    <>
         <main className="main">{children}</main>
         <footer className="footer">
           <p className="footer--text">Created by <a className="footer--link" href="http://hincka.pl/">Paweł Hincka</a>  © {new Date().getFullYear()}</p>
         </footer>
-    </div>
+    </>
   )
 }
 
